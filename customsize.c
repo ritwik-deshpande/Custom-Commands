@@ -6,7 +6,6 @@ extern int errno;
 int main(int narg,char** argv)
 {     
     int fd = open(argv[1], O_RDONLY ); 
-    //printf("%s    %s",argv[1],argv[2]);
     char a;
     if (fd ==-1)
     {
